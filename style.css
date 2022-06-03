@@ -8,6 +8,18 @@ html{
     scroll-behavior: smooth;
 }
 
+html ::-webkit-scrollbar{
+    width: 2vh;
+}
+
+html ::-webkit-scrollbar-thumb{ 
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+html ::-webkit-scrollbar-track{    
+    background: rgba(0, 0, 0, 0.7) url("../Image/Tejas4.jpg");
+}
+
 .logo{
     width: 20%;
     display: flex;
@@ -135,6 +147,7 @@ html{
     color: white;
     border-image: initial;
     max-width: 200px;
+    text-decoration: none;
 }
 
 .btn-fancy{
@@ -185,7 +198,10 @@ html{
 }
 
 .img-fancy{
-    align-items: left;
+    margin-top: 26px;
+    margin-bottom: 45px;
+    padding-left: 546px;
+    align-items: center;
     text-align: center;
     border-radius: 9px;
 }
@@ -233,7 +249,6 @@ html{
 .contact{
     background-color: #f6f5f4;
     height: 833px;
-    width: fit-content;
 }
 
 .text-center{
@@ -245,9 +260,9 @@ html{
 }
 
 .form{
-    width: 1500px;
     margin: 25px auto;
-    padding-right: 700px;
+    padding-right: 300px;
+    padding-left: 373px;
 }
 
 .form-input{
@@ -373,13 +388,15 @@ html{
     }
 
     .form{
-    max-width: 10px;
-    margin: 25px auto;
-    padding-right: 447px;
+        text-align: left;
+        padding-top: 20px;
+        font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+        font-size: 37px;
+        padding-left: 19px;
     }
 
     .form-input{
-    margin: 25px auto;
+    margin: 19px auto;
     padding: 5px 4px;
     padding-right: 0px;
     /* width: 400px; */
@@ -387,7 +404,15 @@ html{
     border-radius: 6px;
     border: 2px solid grey;
     font-family: 'Lato', sans-serif;
-    align-items: center;
+    }
+
+    .img-fancy{
+        margin-top: 26px;
+        margin-bottom: 45px;
+        padding-left: 78px;
+        align-items: center;
+        text-align: center;
+        border-radius: 9px;
     }
 
     .text-center{
@@ -404,7 +429,7 @@ html{
 
     .submit{
     background-color: #f6f5f4;
-    font-size: 23px;
+    font-size: 18px;
     width: 366px;
     }
 
