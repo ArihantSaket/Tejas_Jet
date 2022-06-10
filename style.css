@@ -76,7 +76,7 @@ html ::-webkit-scrollbar-track{
 }
 
 .firstSection{
-    height: 100vh;
+    height: 120vh;
 }
 
 .box-main{
@@ -372,6 +372,10 @@ html ::-webkit-scrollbar-track{
     .btn-sm{
         text-align: center;
         max-width: 202px;
+    }
+
+    .firstSection{
+        height: 280vh;
     }
 
     .btn-search{
