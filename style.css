@@ -8,6 +8,14 @@ html{
     scroll-behavior: smooth;
 }
 
+p{
+    cursor: default;
+}
+
+h2{
+    cursor: default;
+}
+
 html ::-webkit-scrollbar{
     width: 2vh;
 }
@@ -65,6 +73,21 @@ html ::-webkit-scrollbar-track{
     font-size: 20px;
 }
 
+.skeleton{
+    opacity: .7;
+    animation: skeleton-loading 1s linear infinite alternate ;
+}
+
+@keyframes skeleton-loading {
+    0%{
+        background-color: hsl(200, 20%, 70%);
+    }
+
+    100%{
+        background-color: hsl(200, 20%, 95%);
+    }
+}
+
 .rightNav{
     width: 30%;
     text-align: right;
@@ -98,7 +121,7 @@ html ::-webkit-scrollbar-track{
 }
 
 .secondHalf{
-    width: 150px;
+    width: 400px;
     height: 150px;
 }
 
